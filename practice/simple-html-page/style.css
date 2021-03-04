@@ -1,0 +1,181 @@
+.body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #121212;
+  background: url('img/bg.png');
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.page {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Header */
+
+.header {
+  padding: 20px;
+  background-color: #121212;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 16px;
+  color: #56d6fb;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Navigation */
+
+.nav {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-link {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #121212;
+
+  transition: background-color 0.15s linear;
+}
+
+.nav-link:hover {
+  background-color: #eee;
+}
+
+/* Content */
+
+.intro-img {
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #a7a7a7;
+  background-color: #222;
+  opacity: 0.8;
+
+  transition: opacity 0.15s linear;
+}
+
+.intro-img:hover {
+  opacity: 1;
+}
+
+.content {
+  width: 800px;
+  padding: 0 20px;
+}
+
+.content-title {
+  font-size: 24px;
+  margin: 0 0 15px;
+  color: red;
+}
+
+.content-text {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: #1d7abe;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 200px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.sidebar-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #e02525;
+}
+
+.sidebar-img {
+  background: linear-gradient(to top, #fff, #eee);
+}
+
+.sidebar-text {
+  font-size: 12px;
+}
+
+/* Article */
+
+.article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.article-title {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #0d448e;
+}
+
+.article-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  text-decoration: underline;
+}
+
+.article-date {
+  font-size: 12px;
+  color: #a4a4a4;
+  display: block;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #121212;
+}

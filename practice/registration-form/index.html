@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <div class="auth">
+      <h1 class="auth-title">Регистрация</h1>
+
+      <form action="/" method="POST">
+        <div class="form-group">
+          <input
+            class="input"
+            type="text"
+            placeholder="Ваше полное имя"
+            name="name"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="email"
+            placeholder="Ваш E-Mail"
+            name="email"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="tel"
+            placeholder="Ваш номер телефона"
+            name="phone-number"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="password"
+            placeholder="Придумайте пароль"
+            name="password"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            class="input"
+            type="password"
+            placeholder="Подтвердите пароль"
+            name="password-confirm"
+          />
+        </div>
+
+        <div class="form-group">
+          <select class="select" name="city">
+            <option value="riga">Брно</option>
+            <option value="brno">Прага</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" name="rules" id="rules" />
+          <label for="rules">Принимаю условия пользования</label>
+        </div>
+
+        <button class="btn" type="submit">Готово!</button>
+      </form>
+    </div>
+  </body>
+</html>

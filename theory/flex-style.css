@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  /* background: url(../Img/repeatable.jpg);
+  background-size: 100px 100px; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Page */
+
+.page {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  background-color: #eee;
+}
+
+.header-item {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.header-logo {
+  order: 2;
+}
+
+.header-tel {
+  order: 1;
+}
+
+.header-lang {
+  order: 3;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 10px;
+
+  background-color: #333;
+}
+
+.main {
+  width: 60%;
+  padding: 20px;
+
+  background-color: #ccc;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #eee;
+}
